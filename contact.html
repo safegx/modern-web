@@ -41,7 +41,7 @@
                 background-color: rgba(28, 28, 28, 0.3);
                 border-radius: 10px;
                 margin: 30px;
-                padding-bottom: 9%;
+                padding-bottom: 3%;
             }
 
             main h1 {
@@ -58,6 +58,15 @@
             main div input , main div textarea  {
                 border: 0;
                 border-radius:5px;
+                field-sizing: content;
+                min-width: 13%;
+                max-width: 13%;
+            }
+            main div textarea{
+                min-width: 15%;
+                max-width: 15%;
+                min-height: 60px;
+                resize: none;
             }
 
             div button{
@@ -74,7 +83,7 @@
 <body>
     <nav id="menu">
         <h1>Brand</h1>
-        <a id="index" href="index.html">Home</a>
+        <a id="index" href="index.html">index</a>
         <a href="portfolio.html">Portfolio</a>
         <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
@@ -85,7 +94,7 @@
             <div>
                 <label for="name"><strong>Name</strong></label><br>
                 <input type="text" placeholder="Your name here" id="name"><br><br>
-                <label for="email"><strong>Email</strong></label><br>
+                <label for="email" ><strong>Email</strong></label><br>
                 <input type="email" placeholder="Your email here" id="email"><br><br>
                 <label for="description"><strong>Description</strong></label><br>
                 <textarea id="description" placeholder="Write here"></textarea><br><br><br>
